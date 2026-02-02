@@ -10,16 +10,16 @@ namespace Media_Player
     {
         public  class MediaItem
         {
-            public string SurahName { get; set; }       // e.g., "Al-Fatiha"
-            public string ReciterName { get; set; }     // e.g., "Abdul Basit"
-            public string Mp3Path { get; set; }         // full path to mp3 file
+            public string SurahName { get; set; }       
+            public string ReciterName { get; set; }    
+            public string Mp3Path { get; set; }         
             public string PhotoPath { get; set; }
             public int Number { get; set; }
 
             public string TotalTime { get; set; }
 
 
-            // Optional constructor
+            //  constructor
             public MediaItem(int no, string surahName, string reciterName, string mp3Path, string photoPath, string totalTime)
             {
                 this.Number = no;

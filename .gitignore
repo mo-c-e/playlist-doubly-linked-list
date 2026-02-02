@@ -52,3 +52,24 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Windows OS files
+Thumbs.db
+Desktop.ini
+
+# Visual Studio / Rider files (if using IDE)
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.iml
+
+# Secrets / Environment configs
+.env
+.env.local
+appsettings.*.json
+*.key
+*.pfx
+secrets.json
